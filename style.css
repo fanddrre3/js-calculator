@@ -41,5 +41,15 @@ button {
 
 .operator {
     background-color: #4caf50;
+    color: #fff;
 }
 
+.clear {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.equals {
+    background-color: #2196f3;
+    color: #fff;
+}
