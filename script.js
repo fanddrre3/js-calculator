@@ -13,3 +13,8 @@ function setOperator(op) {
     operator = op;
     display.value = '';
 }
+
+function clearDisplay() {
+    display.value = '';
+}
+
