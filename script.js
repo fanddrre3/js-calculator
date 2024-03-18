@@ -38,7 +38,11 @@ function calculate() {
             if (parseFloat(secondNumber) === 0) {
                 result = 'Error: Division by Zero';
             } else {
-                result = parseFloat(firstNumber) / parseFloat
+                result = parseFloat(firstNumber) / parseFloat(secondNumber);
             }
+            break;
+            default:
+            break;
     }
+    display.value = result;
 }
