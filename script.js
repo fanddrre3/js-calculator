@@ -26,10 +26,19 @@ function calculate() {
             result = parseFloat(firstNumber) + parseFloat(secondNumber);
             break;
 
-            case '-':
-                result = parseFloat(firstNumber) - parseFloat(secondNumber);
-                break;
+        case '-':
+            result = parseFloat(firstNumber) - parseFloat(secondNumber);
+            break;
 
-                
+        case '*':
+            result = parseFloat(firstNumber) * parseFloat(secondNumber);
+            break;
+
+        case '/':
+            if (parseFloat(secondNumber) === 0) {
+                result = 'Error: Division by Zero';
+            } else {
+                result = parseFloat(firstNumber) / parseFloat
+            }
     }
 }
