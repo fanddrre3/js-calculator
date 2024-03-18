@@ -18,3 +18,7 @@ function clearDisplay() {
     display.value = '';
 }
 
+function calculate() {
+    secondNumber = display.value;
+    let result = '';
+}
